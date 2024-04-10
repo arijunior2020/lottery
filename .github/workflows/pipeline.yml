@@ -32,7 +32,7 @@ jobs:
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "build/libs/your-app.jar"
-          target: "/home/ubuntu/"
+          target: "/home/ec2-user/"
       
       - name: SSH to EC2 and restart Java process
         uses: appleboy/ssh-action@master
