@@ -1,0 +1,13 @@
+spring:
+  mail:
+    host: email-smtp.sa-east-1.amazonaws.com
+    port: 587
+    username: AKIAZO46JDBTH5ANVHWH
+    password: BAagNX5lGJW21AafC/sYfjAmQpTkqDv6bWALvbvgAjnV
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
